@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!-- BOOSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- ICONOS -->
+    <link rel="stylesheet" href="./css/style.css"> <!-- CSS -->
+    <title>Pintureria</title>
+</head>
+
+<body>
+    <header> <!-- cabecera-->
+        
+        <nav> <!-- barra de navegacion-->
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./pages/colores.html">Colores</a></li>
+                <li><a href="./pages/productos.html">Productos</a></li>
+                <li><a href="./pages/tendencias.html">Tendencias</a></li>
+                <li><a href="./pages/tips.html">Tips</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+
+    </header>
+    <main><!-- Estructura principal-->
+        <section> <!-- HERO SECTION>-->
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/nuevoportada.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/antimanchaportada.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/terplastportada.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+
+        <section>
+            <h2 class="pintamos">¿Que pintamos?</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./img/hogar.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="">
+                                <h5 class="card-title">Hogar & Obra</h5>
+                            </a>
+                            <p class="card-text">Toda la pintura que necesitas para las paredes de tu casa, tanto
+                                exterior como interior. <br>-Acrilicos <br>-Impermeabilizantes <br>-Membranas liquidas
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./img/maderas.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="">
+                                <h5 class="card-title">Maderas</h5>
+                            </a>
+                            <p class="card-text">Troya, tiene para vos todo lo que tus maderas necesitan. <br>-Lacas
+                                <br>-Barnices <br>-Impregnantes <br>-Deck</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./img/metales.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="">
+                                <h5 class="card-title">Metales</h5>
+                            </a>
+                            <p class="card-text">Tersilux cuida tus metales. <br>-Antioxidos <br>-Convertidores
+                                <br>-Esmaltes 3 en 1 <br>-Ferromicaceo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+            <section>
+                <h2 class="productosusados">Productos mas usados</h2>
+
+                <div class="productos">
+                    <div class="lavable">
+                        <img class="lavableimg" src="./img/lavable int.png" alt="Lavable">
+                        <div><a href="./pages/productos.html">Lavable interior</a>
+                            <p>Látex para interiores mate,de lavablidad superior,<br>formulado con polímeros de última
+                                generacióny pigmentos<br>de alta calidad que le confieren una gran resistencia al
+                                frote.<br><br><br>Presentaciones 1, 4 y 20 Litros</p>
+                        </div>
+                    </div>
+                    <div class="acuoso">
+                        <img class="acuosoimg" src="./img/esmalteacuoso.png" alt="Esmalte al agua">
+                        <div><a href="./pages/productos.html">Esmalte al agua</a>
+                            <p>El esmalte al agua multipropósito satinado de secado <br> rápido es un revestimiento para
+                                maderas y metales que combina la versatilidad de los productos acuosos con la rapidez
+                                <br> de finalizar trabajos en poco tiempo y una <br>adherencia excepcional sobre
+                                superficies nuevas y previamente pintadas, logrando un film de alta resistencia.
+                                <br>Presentaciones 1/2, 1, 4 y 20 Litros
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sintetico">
+                        <img class="sinteticoimg" src="./img/sintetico.png" alt="Sintetico">
+                        <div><a href="./pages/productos.html">Sintetico 3 en 1</a>
+                            <p>Esmalte Sintético Multipropósito antióxido y convertidor,<br>su formulación asegura un
+                                acabado de inmejorable brillo y su gran durabilidad lo distingue de los esmaltes
+                                <br>convencionales. Esta verdadera barrera protectora impide la formación de óxido y
+                                preserva la condición del sustrato por muchos años.<br><br><br>Presentaciones 1/4, 1/2,
+                                1, 4 y 20 Litros
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section> <!--top productos-->
+    </main>
+    <form action="/sumbit" method="post"></form>
+    <footer>
+        <h3>Nuestras redes sociales</h3>
+
+        <div class="footercont">
+            <div class="footerimg"><a href="https://www.facebook.com/ColoresPergamino?locale=es_LA" target="_blank"><img
+                        src="./img/facebook.png" alt="facebook"></a></div>
+
+            <div class="footerimg"><a href="https://www.instagram.com/colorespergamino/" target="_blank"><img
+                        src="./img/ig.png" alt="Instagram"></a></div>
+
+            <div class="footerimg"><a href="https://wa.me/2477621139" target="_blank"><img src="./img/wsp.png"
+                        alt="Wsp"></a></div>
+
+            <div class="footerimg"><a href="https://www.youtube.com/@colorespergamino5957" target="_blank"><img
+                        src="./img/youtube.png" alt="Youtube Logo"></a></div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
+        integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

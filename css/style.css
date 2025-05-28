@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/** ----RESET---- **/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.div p {
+    font-weight: bold;
+}
+
+div p {
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+}
+
+
+
+/*! -----HEADER----- !*/
+
+
+
+.menulogo2 {
+    display: flex;
+    width: 250px;
+    height: auto;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    position: relative;
+}
+
+header {
+    margin-top: 0;
+    height: 130px;
+    width: 100%;
+    max-height: 160px;
+    background-color: rgb(8, 120, 224);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+header nav ul li a:hover {
+    color: rgb(124, 124, 124);
+
+}
+
+
+
+
+/*?-----MAIN-----?*/
+
+
+
+section h2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+section h2 {
+    font-family: "Cal Sans", sans-serif;
+    text-align: center;
+    font-size: 70px;
+}
+
+
+
+
+
+div div div img {
+
+    width: 30%;
+    height: 70%;
+}
+
+
+.row {
+    width: 100%;
+}
+
+.card {
+    width: 70%;
+    height: 70%;
+}
+
+h5 {
+    transition: 0.50s;
+    font-family: "Quicksand", sans-serif;
+}
+
+p {
+    font-family: "Quicksand", sans-serif;
+    font-weight: bolder;
+
+}
+
+
+
+.col {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-text {
+    font-size: 25px;
+    font-weight: normal;
+    color: rgb(8, 120, 224);
+}
+
+.card-title {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.card-title:hover {
+    color: rgb(124, 124, 124);
+}
+
+
+
+.card-body a {
+    text-decoration: none;
+
+}
+
+
+
+.caja {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+
+.productos div {
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.lavable {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+
+}
+
+.lavableimg {
+    width: 15%;
+    height: 20%;
+    margin: 0%;
+
+}
+
+.lavable div {
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    align-items: start;
+}
+
+.lavable div a {
+    text-decoration: none;
+    color: rgb(8, 130, 252);
+    font-size: larger;
+}
+
+
+.lavable a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 120, 224);
+}
+
+
+.sintetico {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+
+}
+
+.sinteticoimg {
+    width: 15%;
+    height: 20%;
+    margin: 0%;
+
+}
+
+.sintetico div {
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    align-items: start;
+}
+
+.sintetico div a {
+    text-decoration: none;
+    color: rgb(8, 130, 252);
+    font-size: larger;
+}
+
+.sintetico a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 120, 224);
+}
+
+
+
+.acuoso {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+
+}
+
+.acuosoimg {
+    width: 15%;
+    height: 20%;
+    margin: 0%;
+
+}
+
+.acuoso div {
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    align-items: start;
+}
+
+.acuoso div a {
+    text-decoration: none;
+    color: rgb(8, 130, 252);
+    font-size: larger;
+}
+
+
+.acuoso a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 120, 224);
+}
+
+
+
+/** ----- PAGE COLORES ------ **/
+.coloressec1 {
+    background-color: #c5c5c5;
+    margin-bottom: -950px;
+
+}
+
+
+
+.h2colores {
+    height: 100%;
+    font-size: 60px;
+    color: #ffffff;
+    margin-left: -1200px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.h2esmalte {
+    height: 100%;
+    font-size: 60px;
+    color: #ffffff;
+    margin-left: -1200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #c5c5c5;
+
+}
+
+.h2lavable {
+    height: 100%;
+    font-size: 60px;
+    color: #ffffff;
+    margin-left: 1200px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+
+
+.colorescont {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(5, 200px 200px);
+    gap: 10px;
+    padding-right: 30px;
+}
+
+.colorescont2 {
+    display: grid;
+    width: 65%;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(5, 200px 200px);
+    gap: 10px;
+    padding-left: 30px;
+    margin-bottom: -500px;
+
+}
+
+.colorescont3 {
+    display: grid;
+    width: 65%;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(5, 200px 200px);
+    gap: 10px;
+    background-color: #c5c5c5;
+    padding-bottom: 50px;
+    padding-right: 30px;
+}
+
+.colores img {
+    height: 100%;
+    width: 100%;
+}
+
+.interior {
+    display: flex;
+    background-color: #c5c5c5;
+}
+
+
+
+
+.colores2 img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.exterior {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #c5c5c5;
+}
+
+
+
+
+.colores3 img {
+    height: 100%;
+    width: 100%;
+}
+
+.esmalte {
+    display: flex;
+    background-color: #c5c5c5;
+
+}
+
+.esmalteenvase {
+    width: 100%;
+    height: 30%;
+    background-color: #c5c5c5;
+}
+
+.lavableenvase {
+    width: 100%;
+    height: 40%;
+}
+
+.tersenenvase img {
+    width: 100%;
+    height: 30%;
+}
+
+
+/** ----- PAGE PRODUCTOS ------ **/
+
+.h1productos {
+    background-color: rgb(8, 130, 252);
+    color: #ffffff;
+    margin: 30px;
+    font-size: 40px;
+    text-align: center;
+    background-size: cover;
+}
+
+.h2latex {
+    color: rgb(88, 88, 88);
+    font-size: 40px;
+    text-align: start;
+    padding-left: 60px;
+
+}
+
+.bodypage2 {
+    background-color: rgb(245, 243, 243);
+}
+
+
+
+
+
+
+
+.latexinterior {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -80px;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+
+.productocaja {
+    display: flex;
+    width: 21%;
+    height: 100%;
+    margin: 20px;
+    border: 2px solid rgb(8, 130, 252);
+    flex-direction: column;
+    text-align: center;
+    border-radius: 0px 30px 0px 30px;
+    padding: 3px;
+    padding-bottom: 20px;
+
+
+}
+
+.vermas:hover {
+    color: #c5c5c5;
+
+}
+
+.vermas {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 130, 252);
+    color: #ffffff;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.productocaja:hover {
+    background-color: rgb(208, 255, 0);
+    transition: 0.5s;
+}
+
+/** ----- FOOTER -----**/
+footer {
+    height: 100px;
+    background-color: rgb(8, 120, 224);
+}
+
+footer h3 {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+
+footer a img {
+    width: 50px;
+    height: 50px;
+}
+
+.footercont {
+    display: flex;
+    justify-content: center;
+}
+
+.footerimg {
+    margin: 0 15px;
+}
+
+
+
+@media screen and (max-width: 1070px) {
+    header nav ul {
+        flex-wrap: wrap;
+    }
+
+    
+}
+
+
+
+@media screen and (max-width: 557px) {
+    .pintamos {
+        font-size: 50px;
+    }
+
+
+    .productosusados {
+        font-size: 50px
+    }
+
+    .productos p {
+        font-size: 20px;
+
+    }
+
+
+    @media (max-width:600px) {
+        header nav ul {
+            flex-wrap: wrap;
+
+
+        }
+    }
+
+    @media (max-width:600px) {
+        header {
+            justify-content: center;
+
+        }
+    }
+
+
+    @media (max-width:400px) {
+        .contenedor {
+            flex-wrap: wrap;
+
+        }
+    }
