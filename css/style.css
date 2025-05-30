@@ -30,24 +30,34 @@ div p {
 
 
 .menulogo2 {
-    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 40px;
     width: 250px;
     height: auto;
-    top: 0;
-    left: 0;
-    margin: 20px;
-    position: relative;
+    margin: 10px;
+
+}
+
+.menulogo3 {
+    position: absolute;
+    top: 20px;
+    left: 93%;
+    transform: translateX(-50%);
+    width: 180px;
+    /* Ajusta según necesites */
+    height: auto;
+
 }
 
 header {
-    margin-top: 0;
-    height: 130px;
-    width: 100%;
-    max-height: 160px;
-    background-color: rgb(8, 120, 224);
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end
+    align-items: end;
+    justify-content: end;
+    background-color: rgb(8, 120, 224);
+    flex-wrap: wrap;
+    height: 150px;
+
 }
 
 header nav ul {
@@ -439,7 +449,7 @@ p {
     margin-top: -80px;
     width: 100%;
     justify-content: center;
-    
+
 }
 
 
@@ -477,8 +487,9 @@ p {
 }
 
 .productocaja:hover {
-    background-color: rgb(208, 255, 0);
+
     transition: 0.5s;
+    transform: scale(1.1);
 }
 
 /** ----- FOOTER -----**/
@@ -511,14 +522,82 @@ footer a img {
 
 
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1130px) {
     header nav ul {
         flex-wrap: wrap;
     }
+    .menulogo2 {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    width: 200px;
+    height: auto;
+    margin: 10px;
 
-    
 }
 
+.menulogo3 {
+    width: 0px;
+    height:0px;
+
+} 
+}
+
+@media screen and (max-width: 865px) {
+   
+    .menulogo2 {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+
+}
+
+.menulogo3 {
+    
+    width: 0px;
+    
+    height:0px;
+
+} 
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+}
+
+@media screen and (max-width: 865px) {
+   
+    .menulogo2 {
+    position: absolute;
+    top: 5px;
+    left: 30%;
+    width: 150px;
+    height: auto;
+    margin: 10px;
+
+}
+
+.menulogo3 {
+    
+    width: 0px;
+    
+    height:0px;
+
+} 
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+}
 
 
 @media screen and (max-width: 557px) {
@@ -537,13 +616,7 @@ footer a img {
     }
 
 
-    @media (max-width:600px) {
-        header nav ul {
-            flex-wrap: wrap;
-
-
-        }
-    }
+  
 
     @media (max-width:600px) {
         header {
