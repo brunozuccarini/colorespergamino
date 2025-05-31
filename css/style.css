@@ -45,7 +45,6 @@ div p {
     left: 93%;
     transform: translateX(-50%);
     width: 180px;
-    /* Ajusta según necesites */
     height: auto;
 
 }
@@ -286,64 +285,88 @@ p {
 
 
 /** ----- PAGE COLORES ------ **/
-.coloressec1 {
-    background-color: #c5c5c5;
-    margin-bottom: -950px;
 
+.bodypage2 {
+    background-color: rgb(245, 243, 243);
 }
 
+
+.coloressec1 {
+    margin-bottom: -950px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
 
 .h2colores {
     height: 100%;
-    font-size: 60px;
-    color: #ffffff;
-    margin-left: -1200px;
+    font-size: 70px;
+    color: rgb(88, 88, 88);
+    margin-left: -1100px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.h2esmalte {
-    height: 100%;
-    font-size: 60px;
-    color: #ffffff;
-    margin-left: -1200px;
-    margin-top: 0;
-    margin-bottom: 0;
-    background-color: #c5c5c5;
+
+.colorescont {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(5, 200px 200px);
+
+}
+
+
+.tersenproducto {
+
+
+    height: 40%;
+    width: auto;
+}
+
+.lavableproducto {
+    float: right;
+    height: auto;
+    width: 40%;
+
+
+}
+
+.colores img {
+    height: 80%;
+    width: auto;
+
+}
+
+.interior {
+    display: flex;
+
+}
+
+
+.colorescont2 {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(5, 200px 200px);
 
 }
 
 .h2lavable {
     height: 100%;
-    font-size: 60px;
-    color: #ffffff;
-    margin-left: 1200px;
+    font-size: 70px;
+    color: rgb(88, 88, 88);
+    margin-left: 1100px;
     margin-top: 0;
     margin-bottom: 0;
 
 }
 
-
-
-.colorescont {
-    display: grid;
-    grid-template-columns: repeat(3, 400px);
-    grid-template-rows: repeat(5, 200px 200px);
-    gap: 10px;
-    padding-right: 30px;
-}
-
-.colorescont2 {
-    display: grid;
-    width: 65%;
-    grid-template-columns: repeat(3, 400px);
-    grid-template-rows: repeat(5, 200px 200px);
-    gap: 10px;
-    padding-left: 30px;
-    margin-bottom: -500px;
+.colores2 img {
+    height: 100%;
+    width: 100%;
 
 }
+
 
 .colorescont3 {
     display: grid;
@@ -351,67 +374,33 @@ p {
     grid-template-columns: repeat(3, 400px);
     grid-template-rows: repeat(5, 200px 200px);
     gap: 10px;
-    background-color: #c5c5c5;
     padding-bottom: 50px;
     padding-right: 30px;
+
 }
 
-.colores img {
+.h2esmalte {
     height: 100%;
-    width: 100%;
-}
-
-.interior {
-    display: flex;
-    background-color: #c5c5c5;
-}
-
-
-
-
-.colores2 img {
-    height: 100%;
-    width: 100%;
+    font-size: 70px;
+    color: rgb(88, 88, 88);
+    margin-left: -1200px;
+    margin-top: -600px;
+    margin-bottom: 0;
 }
 
 
 
-
-.exterior {
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: #c5c5c5;
-}
-
-
-
-
-.colores3 img {
-    height: 100%;
-    width: 100%;
-}
 
 .esmalte {
     display: flex;
-    background-color: #c5c5c5;
-
 }
 
 .esmalteenvase {
     width: 100%;
     height: 30%;
-    background-color: #c5c5c5;
+
 }
 
-.lavableenvase {
-    width: 100%;
-    height: 40%;
-}
-
-.tersenenvase img {
-    width: 100%;
-    height: 30%;
-}
 
 
 /** ----- PAGE PRODUCTOS ------ **/
@@ -431,10 +420,6 @@ p {
     text-align: start;
     padding-left: 60px;
 
-}
-
-.bodypage2 {
-    background-color: rgb(245, 243, 243);
 }
 
 
@@ -520,87 +505,341 @@ footer a img {
     margin: 0 15px;
 }
 
+/** ----- MEDIA QUERIS -----**/
+
+@media (max-width:1240px) {
+    .coloressec1 {
+        text-align: center;
+    }
+
+
+    .colorescont {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .colorescont2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .tersenproducto {
+        height: 10%;
+        width: 30%;
+    }
+
+
+
+    .colores img {
+        height: 80%;
+        width: auto;
+    }
+
+    .interior {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .exterior {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .h2colores {
+        font-size: 80px;
+        margin-left: 0.5%;
+
+    }
+
+    .h2latex {
+        font-size: 80px;
+        margin-left: 0.5%;
+
+    }
+
+    .h2lavable {
+        text-align: center;
+        margin: 0;
+        margin-top: 1100px;
+        font-size: 80px;
+    }
+
+
+    .lavableproducto {
+        margin-right: 30%;
+       height: 10%;
+        width: 30%;
+
+
+    }
+     .colores img {
+
+        height: 80%;
+        width: auto;
+    }
+
+    .colorescont3 {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3, 400px);
+        grid-template-rows: repeat(5, 200px 200px);
+        gap: 10px;
+        padding-bottom: 50px;
+        padding-right: 30px;
+
+
+
+    }
+
+    .h2esmalte {
+        text-align: center;
+        margin: 0;
+        margin-top: 100px;
+        font-size: 80px;
+    }
+
+    .esmalte {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .esmalteenvase {
+        height: 10%;
+        width: 30%;
+        margin-left: 400px;
+
+    }
+}
+
+@media (max-width:1240px){
+
+    .colorescont3 {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 400px);
+        grid-template-rows: repeat(5, 200px 200px);
+        gap: 10px;
+        padding-bottom: 50px;
+        padding-right: 30px;
+        justify-content: center;
+        margin-left: 40px;
+
+
+
+    }
+
+    .h2esmalte {
+        
+        margin: 0;
+        margin-top: 100px;
+        font-size: 80px;
+        margin-left: 5%;
+    }
+
+    .esmalte {
+    display: flex;
+    flex-direction: column;
+   
+    }
+
+    .esmalteenvase {
+        height: 10%;
+        width: 30%;
+        margin-left: 320px;
+
+    }
+
+    .lavableproducto{
+        margin-right: 400px;
+    }
+}
+
+
 
 
 @media screen and (max-width: 1130px) {
     header nav ul {
         flex-wrap: wrap;
     }
+
     .menulogo2 {
-    position: absolute;
-    top: 5px;
-    left: 40px;
-    width: 200px;
-    height: auto;
-    margin: 10px;
+        position: absolute;
+        top: 5px;
+        left: 40px;
+        width: 200px;
+        height: auto;
+        margin: 10px;
 
-}
+    }
 
-.menulogo3 {
-    width: 0px;
-    height:0px;
+    .menulogo3 {
+        width: 0px;
+        height: 0px;
 
-} 
-}
+    }
 
-@media screen and (max-width: 865px) {
+    .colorescont {
+
+        justify-content: center;
+    }
+
+
+      
+
+    }
+    @media screen and (max-width: 865px) {
+
+        .menulogo2 {
+            position: absolute;
+            top: 5px;
+            left: 40px;
+            width: 200px;
+            height: auto;
+            margin: 10px;
+
+        }
+
+        .menulogo3 {
+
+            width: 0px;
+
+            height: 0px;
+
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 15px;
+            font-size: 20px;
+            transition: 0.5s;
+        }
+    }
+
+    @media screen and (max-width: 865px) {
+
+        .menulogo2 {
+            position: absolute;
+            top: 5px;
+            left: 30%;
+            width: 150px;
+            height: auto;
+            margin: 10px;
+
+        }
+
+        .menulogo3 {
+
+            width: 0px;
+
+            height: 0px;
+
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 15px;
+            font-size: 20px;
+            transition: 0.5s;
+        }
+
+        .h2colores {
+            color: rgb(88, 88, 88);
+            font-size: 50px;
+            margin-left: 0.5%;
+
+        }
+
+        .lavableproducto {
+            height: 10%;
+            width: 30%;
+            margin-right: 35%;
+        }
+
+        .h2lavable {
+            color: rgb(88, 88, 88);
+            font-size: 50px;
+            margin-left: 0.5%;
+            text-align: center;
+
+
+        }
+
+        .colorescont2 {
+            display: flex;
+            text-align: center;
+
+
+        }
+
+  .colorescont3 {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 400px);
+        grid-template-rows: repeat(5, 200px 200px);
+        gap: 10px;
+        padding-bottom: 50px;
+        padding-right: 30px;
+        justify-content: center;
+        margin-left: 40px;
+
+
+
+    }
+
+    .h2esmalte {
+        
+        margin: 0;
+        margin-top: 100px;
+        font-size: 50px;
+        
+    }
+
+    .esmalte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
    
-    .menulogo2 {
-    position: absolute;
-    top: 5px;
-    left: 40px;
-    width: 200px;
-    height: auto;
-    margin: 10px;
+    }
+
+    .esmalteenvase {
+        height: 10%;
+        width: 30%;
+        margin-left: 240px;
+
+    }
+
+
+
+
+
+    }
+
 
 }
 
-.menulogo3 {
-    
-    width: 0px;
-    
-    height:0px;
 
-} 
-header nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    padding: 15px;
-    font-size: 20px;
-    transition: 0.5s;
-}
+@media (max-width:600px) {
+    header {
+        justify-content: center;
+
+    }
 }
 
-@media screen and (max-width: 865px) {
-   
-    .menulogo2 {
-    position: absolute;
-    top: 5px;
-    left: 30%;
-    width: 150px;
-    height: auto;
-    margin: 10px;
 
-}
-
-.menulogo3 {
-    
-    width: 0px;
-    
-    height:0px;
-
-} 
-header nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    padding: 15px;
-    font-size: 20px;
-    transition: 0.5s;
-}
-}
 
 
 @media screen and (max-width: 557px) {
+
+     .colores img {
+        height: 50%;
+        width: auto;
+    }
     .pintamos {
         font-size: 50px;
     }
@@ -615,20 +854,39 @@ header nav ul li a {
 
     }
 
+    @media (max-width:400px) {
 
-  
 
-    @media (max-width:600px) {
-        header {
+        .lavableproducto {
+            height: 0%;
+            width: 0%;
+        }
+
+        .tersenproducto {
+            height: 0%;
+            width: 0%;
+        }
+
+        .colores img {
+            height: 70%;
+        }
+
+        .colorescont {
+            display: grid;
+            grid-template-columns: repeat(1, 300px);
+            grid-template-rows: repeat(5, 200px 200px);
             justify-content: center;
 
         }
-    }
 
-
-    @media (max-width:400px) {
-        .contenedor {
-            flex-wrap: wrap;
-
+        .esmalteenvase{
+            height: 0%;
+            width: 0%;
         }
+
+        .colorescont3 {
+            display: grid;
+            grid-template-columns: repeat(1, 300px);
+            grid-template-rows: repeat(5, 200px 200px);
+            justify-content: center;
     }
