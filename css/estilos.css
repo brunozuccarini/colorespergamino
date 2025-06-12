@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+div p {
+  font-weight: bold;
+  color: rgb(88, 88, 88);
+}
+
+h5 {
+  transition: 0.5s;
+  font-family: "Quicksand", sans-serif;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+}
+
+section h2 {
+  font-family: "Cal Sans", sans-serif;
+  text-align: center;
+  font-size: 70px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+div div div img {
+  width: 30%;
+  height: 70%;
+}
+
+.menulogo2 {
+  position: absolute;
+  top: 5px;
+  left: 40px;
+  width: 250px;
+  height: auto;
+  margin: 10px;
+}
+
+.menulogo3 {
+  position: absolute;
+  top: 20px;
+  left: 93%;
+  transform: translateX(-50%);
+  width: 180px;
+  height: auto;
+}
+
+header {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  background-color: rgb(8, 120, 224);
+  flex-wrap: wrap;
+  height: 150px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+header nav ul li a:hover {
+  color: rgb(124, 124, 124);
+}
+
+section .row-cols-1 {
+  width: 100%;
+}
+section .row-cols-1 .col {
+  display: flex;
+  justify-content: center;
+}
+section .row-cols-1 .col .card {
+  width: 70%;
+  height: 70%;
+}
+section .row-cols-1 .col .card .card-body {
+  text-decoration: none;
+}
+section .row-cols-1 .col .card .card-body .card-title {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+section .row-cols-1 .col .card .card-body .card-title:hover {
+  color: rgb(124, 124, 124);
+}
+section .row-cols-1 .col .card .card-body .card-text {
+  font-size: 25px;
+  font-weight: normal;
+  color: rgb(8, 120, 224);
+}
+
+section .productos {
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+section .productos .lavable {
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+section .productos .lavable .lavableimg {
+  width: 15%;
+  height: 20%;
+  margin-right: 5%;
+}
+section .productos .lavable div {
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+  align-items: start;
+}
+section .productos .lavable a {
+  text-decoration: none;
+  color: rgb(8, 130, 252);
+  font-size: larger;
+}
+section .productos .lavable a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(8, 120, 224);
+}
+section .productos .acuoso {
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+section .productos .acuoso .acuosoimg {
+  width: 15%;
+  height: 20%;
+  margin-right: 5%;
+}
+section .productos .acuoso div {
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+  align-items: start;
+}
+section .productos .acuoso a {
+  text-decoration: none;
+  color: rgb(8, 130, 252);
+  font-size: larger;
+}
+section .productos .acuoso a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(8, 120, 224);
+}
+section .productos .sintetico {
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+section .productos .sintetico .sinteticoimg {
+  width: 15%;
+  height: 20%;
+  margin-right: 5%;
+}
+section .productos .sintetico div {
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+  align-items: start;
+}
+section .productos .sintetico a {
+  text-decoration: none;
+  color: rgb(8, 120, 224);
+  font-size: larger;
+}
+section .productos .sintetico a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(8, 120, 224);
+}
+
+.bodypage2 {
+  background-color: rgb(245, 243, 243);
+}
+
+.titulointerior {
+  font-size: 3rem;
+  margin: 20px;
+  text-align: center;
+  font-family: "Cal Sans", sans-serif;
+  color: #444;
+}
+
+.interior {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.interior .producto-img {
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+}
+.interior .colorescont {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  flex: 1;
+  min-width: 300px;
+}
+.interior .colorescont .colores img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.h1productos {
+  background-color: rgb(8, 120, 224);
+  color: #ffffff;
+  margin: 30px;
+  font-size: 40px;
+  text-align: center;
+  background-size: cover;
+}
+
+.h2latex {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  text-align: start;
+  padding-left: 60px;
+  background-color: rgb(8, 120, 224);
+}
+
+.latexinterior {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.latexinterior .productocaja {
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  margin: 15px;
+  border: 2px solid rgb(8, 130, 252);
+  flex-direction: column;
+  text-align: center;
+  border-radius: 0px 30px 0px 30px;
+  padding: 3px;
+  padding-bottom: 20px;
+}
+.latexinterior .productocaja:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.latexinterior .productocaja .productocaja h5 {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 5px;
+  margin: 5px 0;
+  font-size: 15px;
+  transition: 0.5s;
+  font-family: "Quicksand", sans-serif;
+}
+.latexinterior .productocaja .vermas {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-color: rgb(8, 130, 252);
+  color: #ffffff;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-size: 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 8px;
+}
+.latexinterior .productocaja .vermas:hover {
+  color: #c5c5c5;
+}
+
+footer {
+  height: 100px;
+  background-color: rgb(8, 120, 224);
+}
+
+footer h3 {
+  color: #ffffff;
+  text-align: center;
+}
+
+footer a img {
+  width: 50px;
+  height: 50px;
+}
+
+.footercont {
+  display: flex;
+  justify-content: center;
+}
+
+.footerimg {
+  margin: 0 15px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

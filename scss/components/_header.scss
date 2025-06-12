@@ -1,0 +1,49 @@
+.menulogo2 {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    width: 250px;
+    height: auto;
+    margin: 10px;
+
+}
+
+.menulogo3 {
+    position: absolute;
+    top: 20px;
+    left: 93%;
+    transform: translateX(-50%);
+    width: 180px;
+    height: auto;
+
+}
+
+header {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    background-color: $color-principal;
+    flex-wrap: wrap;
+    height: 150px;
+
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+header nav ul li a:hover {
+    color: rgb(124, 124, 124);
+
+}
+
