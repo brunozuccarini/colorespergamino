@@ -219,20 +219,12 @@ section {
 }
 
 
-.h1productos {
-    background-color: $color-principal;
-    color: $color-secundario;
-    margin: 30px;
-    font-size: 40px;
-    text-align: center;
-    background-size: cover;
-}
+
 
 .h2latex {
     color: rgb(255, 255, 255);
     font-size: 60px;
-    text-align: start;
-    padding-left: 60px;
+    text-align: center;
     background-color: $color-principal;
 
 }
@@ -296,4 +288,31 @@ section {
         }
 
     }
+}
+
+
+.dondeestamos {
+    background-color: $color-principal;
+    color: $color-secundario;
+    text-align: center;
+    margin: 50px;
+    
+}
+
+.contactoh3 {
+    display: flex;
+    justify-content: center;
+    
+     
+    .infocontacto1 {
+        margin: 10px;
+        color: $color-principal; 
+        
+    }  
+    .infocontacto2 {
+        margin: 10px;
+        color:grey; 
+        
+    }  
+   
 }

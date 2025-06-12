@@ -242,20 +242,10 @@ section .productos .sintetico a:hover {
   border-radius: 4px;
 }
 
-.h1productos {
-  background-color: rgb(8, 120, 224);
-  color: #ffffff;
-  margin: 30px;
-  font-size: 40px;
-  text-align: center;
-  background-size: cover;
-}
-
 .h2latex {
   color: rgb(255, 255, 255);
   font-size: 60px;
-  text-align: start;
-  padding-left: 60px;
+  text-align: center;
   background-color: rgb(8, 120, 224);
 }
 
@@ -308,6 +298,26 @@ section .productos .sintetico a:hover {
 }
 .latexinterior .productocaja .vermas:hover {
   color: #c5c5c5;
+}
+
+.dondeestamos {
+  background-color: rgb(8, 120, 224);
+  color: #ffffff;
+  text-align: center;
+  margin: 50px;
+}
+
+.contactoh3 {
+  display: flex;
+  justify-content: center;
+}
+.contactoh3 .infocontacto1 {
+  margin: 10px;
+  color: rgb(8, 120, 224);
+}
+.contactoh3 .infocontacto2 {
+  margin: 10px;
+  color: grey;
 }
 
 footer {
