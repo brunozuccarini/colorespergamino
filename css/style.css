@@ -358,12 +358,12 @@ p {
 
 .productocaja {
     display: flex;
+    flex-direction: column;
+    text-align: center;
     width: 21%;
     height: 100%;
     margin: 20px;
     border: 2px solid rgb(8, 130, 252);
-    flex-direction: column;
-    text-align: center;
     border-radius: 0px 30px 0px 30px;
     padding: 3px;
     padding-bottom: 20px;

@@ -59,9 +59,7 @@ section {
         margin-right: 20px;
 
         .lavable {
-            display: flex;
-            justify-content: left;
-            align-items: start;
+            @include flex (flex, left, start);
             margin-bottom: 50px;
             margin-left: 20px;
             margin-right: 20px;
@@ -238,14 +236,9 @@ section {
     .productocaja {
         display: flex;
         justify-content: center;
-        width: 15%;
-        margin: 15px;
-        border: 2px solid rgb(8, 130, 252);
         flex-direction: column;
         text-align: center;
-        border-radius: 0px 30px 0px 30px;
-        padding: 3px;
-        padding-bottom: 20px;
+        @extend %productocaja;
 
         &:hover {
             transition: 0.5s;
@@ -296,23 +289,49 @@ section {
     color: $color-secundario;
     text-align: center;
     margin: 50px;
-    
+
 }
 
 .contactoh3 {
+    margin-top: 5%;
     display: flex;
     justify-content: center;
-    
-     
+    align-items: center;
+    padding: 30px;
+
+
     .infocontacto1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin: 10px;
-        color: $color-principal; 
+        color: grey;
+        font-family: "Archivo Black", sans-serif;
         
-    }  
-    .infocontacto2 {
-        margin: 10px;
-        color:grey; 
-        
-    }  
-   
+        h2 {
+            color: $color-principal;
+            margin: 20px;
+        }
+    }
+    h3 {
+        font-family:Arial, Helvetica, sans-serif;}
+    
 }
+
+
+.horarios {
+    margin: 30px;
+    text-align: center;
+    h3 {
+    font-size: 40px;
+    font-family: "Archivo Black", sans-serif;
+    color: $color-principal;}
+    
+    img {
+        height: 30%;
+        width: 30%;
+    }
+
+}
+
+

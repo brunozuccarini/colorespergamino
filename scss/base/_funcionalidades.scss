@@ -1,3 +1,25 @@
 //*? VARIBALES
-$color-principal:rgb(8, 120, 224);
+$color-principal: rgb(8, 120, 224);
 $color-secundario: #ffffff;
+
+
+
+
+//*? EXTENDS
+
+%productocaja {
+    width: 15%;
+    margin: 15px;
+    border: 2px solid $color-principal;
+    border-radius: 0px 30px 0px 30px;
+    padding: 3px;
+    padding-bottom: 20px;
+}
+
+
+//*? MIXIN
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
