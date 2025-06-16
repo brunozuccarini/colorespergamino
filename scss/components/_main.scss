@@ -239,6 +239,7 @@ section {
         flex-direction: column;
         text-align: center;
         @extend %productocaja;
+        margin: 50px;
 
         &:hover {
             transition: 0.5s;
@@ -335,3 +336,13 @@ section {
 }
 
 
+.tips {
+    display: flex;
+    justify-content: center;
+   
+    margin: 30px;
+}   
+
+.tips2 {
+    padding: 30px;
+}
