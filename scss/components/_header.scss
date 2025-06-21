@@ -29,22 +29,32 @@ header {
 
 }
 
-header nav ul {
-    display: flex;
-    list-style: none;
-    margin-bottom: 10px;
-}
-
-header nav ul li a {
-    text-decoration: none;
+.navbar .nav-link,
+.navbar .nav-link.active {
+    font-size: 1.2rem;
     color: #ffffff;
-    padding: 15px;
-    font-size: 30px;
-    transition: 0.5s;
 }
 
-header nav ul li a:hover {
-    color: rgb(124, 124, 124);
-
+.navbar .nav-link:hover,
+.navbar .nav-link.active:hover {
+    color: #ffcc00;
 }
 
+
+.navbar .navbar-brand {
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+
+.navbar .navbar-brand:hover {
+    color: #ffcc00;
+}
+
+.navbar .dropdown-item {
+    font-size: 1.1rem;
+    color: #333333;
+}
+
+.navbar .dropdown-item:hover {
+    color:$color-principal;
+}
