@@ -20,13 +20,49 @@
             <a href="../index.html"><img class="menulogo3" src="../img/tersuave.png" alt=""></a>
             <a href="../index.html"><img class="menulogo2 animate__animated animate__bounce" src="../img/logoblanco.png"
                     alt=""></a>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/colores.html">Colores</a></li>
-                <li><a href="../pages/productos.html">Productos</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
-                <li><a href="./pages/tips.html">Tips</a></li>
-            </ul>
+                    
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../pages/colores.html">Colores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/tips.html">Tips</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../pages/productos.html" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Productos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../pages/productos.html#latexintsec">Latex</a></li>
+                                    <li><a class="dropdown-item" href="../pages/productos.html#sinteticosec">Esmaltes</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="../pages/productos.html#maderasec">Maderas</a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
         </nav>
     </header>
     <section>
