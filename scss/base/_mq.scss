@@ -1,78 +1,22 @@
-@media screen and (max-width: 1130px) {
-    header nav ul {
-        flex-wrap: wrap;
+// MEDIA QUERIES
+
+@media (max-width: 992px) {
+    header {
+        height: auto;
+        padding-bottom: 20px;
     }
 
     .menulogo2 {
-        position: absolute;
-        top: 5px;
-        left: 40px;
-        width: 200px;
-        height: auto;
-        margin: 10px;
-
+        position: static;
+        display: block;
+        margin: 10px auto;
+        width: 180px;
     }
 
     .menulogo3 {
-        width: 0px;
-        height: 0px;
-
-    }
-}
-
-
-
-@media screen and (max-width: 865px) {
-
-    .menulogo2 {
-        position: absolute;
-        top: 5px;
-        left: 30%;
+        position: static;
+        display: block;
+        margin: 10px auto;
         width: 150px;
-        height: auto;
-        margin: 10px;
-
-    }
-
-    .menulogo3 {
-
-        width: 0px;
-
-        height: 0px;
-
-    }
-
-    header nav ul li a {
-        text-decoration: none;
-        color: #ffffff;
-        padding: 15px;
-        font-size: 20px;
-        transition: 0.5s;
-    }
-
-
-}
-
-
-
-
-
-
-
-
-@media screen and (max-width: 557px) {
-
-    .pintamos {
-        font-size: 50px;
-    }
-
-
-    .productosusados {
-        font-size: 50px
-    }
-
-    .productos p {
-        font-size: 20px;
-
     }
 }
