@@ -1,22 +1,82 @@
 // MEDIA QUERIES
 
+// MEDIA QUERIES
 @media (max-width: 992px) {
-    header {
-        height: auto;
-        padding-bottom: 20px;
+    .header-logos {
+        flex-direction: column;
     }
 
-    .menulogo2 {
-        position: static;
-        display: block;
-        margin: 10px auto;
-        width: 180px;
-    }
-
+    .menulogo2,
     .menulogo3 {
-        position: static;
-        display: block;
+        width: 180px;
         margin: 10px auto;
-        width: 150px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+}
+
+// PAGINA COLORES
+
+
+
+@media (max-width: 1100px) {
+    .interior {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 10px;
+
+        .producto-img {
+            width: 60%;
+            max-width: 320px;
+        }
+
+        .colorescont {
+            width: 90%; 
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 12px;
+            justify-items: center;
+
+            .colores img {
+                width: 90px;
+                height: auto;
+            }
+        }
+    }
+
+    .titulointerior {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .interior {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+
+        .producto-img {
+            width: 80%;
+            max-width: 300px;
+        }
+
+        .colorescont {
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 10px;
+            width: 100%;
+            justify-items: center;
+
+            .colores img {
+                width: 90px;
+                height: auto;
+            }
+        }
+    }
+
+    .titulointerior {
+        font-size: 2rem;
+        margin: 15px 0;
     }
 }
