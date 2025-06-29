@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Cal+Sans&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
@@ -48,52 +49,74 @@ div div div img {
   height: 70%;
 }
 
-header {
-  background-color: rgb(8, 120, 224);
+.barra-navegacion {
+  background-color: #007bff;
+  color: white;
+  padding: 20px 0; /* ⬅️ Aumentado */
 }
 
-.header-logos {
-  background-color: rgb(8, 120, 224);
+.contenedor-header {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.menulogo2 {
-  width: 250px;
-  height: auto;
+.logo-tersuave img {
+  height: 50px;
 }
 
-.menulogo3 {
-  width: 180px;
-  height: auto;
+.marca-central {
+  flex: 1;
+  text-align: center;
 }
 
-.navbar {
-  background-color: rgb(8, 120, 224);
-  padding: 0.5rem 0;
+.marca-central img {
+  height: 100px;
 }
 
-.navbar-nav .nav-link {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: white !important;
-  padding: 0.5rem 1rem;
+.menu-derecha {
+  display: flex;
+  align-items: center;
 }
 
-.navbar-nav .nav-link:hover {
-  color: #ffcc00 !important;
+.menu-derecha .navbar {
+  background: transparent;
+  padding: 0;
 }
 
-.navbar .navbar-brand {
-  font-size: 1.4rem;
-  color: #ffffff;
+.menu-derecha .nav-link {
+  color: white;
+  margin-right: 10px;
 }
 
-.navbar .dropdown-item {
-  font-size: 1.1rem;
-  color: #333333;
+.menu-derecha .nav-link:hover {
+  color: #ccc;
 }
 
-.navbar .dropdown-item:hover {
-  color: rgb(8, 120, 224);
+.dropdown-menu {
+  background-color: #ffffff;
+}
+
+.dropdown-item {
+  color: #333;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-outline-light {
+  border-color: white;
+  color: white;
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: #007bff;
 }
 
 .carousel-inner img {

@@ -1,52 +1,69 @@
-header {
-    background-color: $color-principal;
+.barra-navegacion {
+  background-color: #007bff;
+  color: white;
+  padding: 20px 0; /* ⬅️ Aumentado */
 }
 
-// Contenedor de logos
-.header-logos {
-    background-color: $color-principal;
+.contenedor-header {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.menulogo2 {
-    width: 250px;
-    height: auto;
+.logo-tersuave img {
+  height: 50px;
 }
 
-.menulogo3 {
-    width: 180px;
-    height: auto;
+.marca-central {
+  flex: 1;
+  text-align: center;
 }
 
-// Navbar
-.navbar {
-    background-color: $color-principal;
-    padding: 0.5rem 0;
+.marca-central img {
+  height: 100px;
 }
 
-.navbar-nav .nav-link {
-    font-size: 1.2rem; // Agranda el menú
-    font-weight: 600;
-    color: white !important;
-    padding: 0.5rem 1rem;
+.menu-derecha {
+  display: flex;
+  align-items: center;
 }
 
-.navbar-nav .nav-link:hover {
-    color: #ffcc00 !important; // hover amarillo opcional
+.menu-derecha .navbar {
+  background: transparent;
+  padding: 0;
 }
 
-
-.navbar .navbar-brand {
-    font-size: 1.4rem;
-    color: #ffffff;
+.menu-derecha .nav-link {
+  color: white;
+  margin-right: 10px;
 }
 
-
-
-.navbar .dropdown-item {
-    font-size: 1.1rem;
-    color: #333333;
+.menu-derecha .nav-link:hover {
+  color: #ccc;
 }
 
-.navbar .dropdown-item:hover {
-    color:$color-principal;
+.dropdown-menu {
+  background-color: #ffffff;
+}
+
+.dropdown-item {
+  color: #333;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-outline-light {
+  border-color: white;
+  color: white;
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: #007bff;
 }
