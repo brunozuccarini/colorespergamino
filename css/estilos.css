@@ -474,6 +474,16 @@ footer a img {
     font-size: 1rem;
   }
 }
+@media (max-width: 400px) {
+  .productosusados {
+    font-size: 1.8rem;
+    /* Más chico que el tamaño por defecto */
+    text-align: center;
+    /* Opcional, por si se ve mejor centrado */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
 @media (max-width: 1100px) {
   .interior {
     flex-direction: column;

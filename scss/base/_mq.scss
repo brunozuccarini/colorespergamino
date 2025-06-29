@@ -1,5 +1,3 @@
-
-
 // MEDIA QUERIES
 @media (max-width: 992px) {
     .header-logos {
@@ -17,6 +15,16 @@
     }
 }
 
+@media (max-width: 400px) {
+    .productosusados {
+        font-size: 1.8rem;
+        /* Más chico que el tamaño por defecto */
+        text-align: center;
+        /* Opcional, por si se ve mejor centrado */
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
 
 // PAGINA COLORES
 
@@ -35,7 +43,7 @@
         }
 
         .colorescont {
-            width: 90%; 
+            width: 90%;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
             gap: 12px;
             justify-items: center;
