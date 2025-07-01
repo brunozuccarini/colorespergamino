@@ -537,5 +537,20 @@ footer a img {
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 1024px) {
+  .latexinterior {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .latexinterior {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .latexinterior {
+    grid-template-columns: 1fr;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
