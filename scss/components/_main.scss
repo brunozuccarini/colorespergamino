@@ -223,69 +223,59 @@ section {
 
 
 .h2latex {
-    color: rgb(255, 255, 255);
-    font-size: 60px;
-    text-align: center;
-    background-color: $color-principal;
-
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+  background-color: $color-principal;
+  padding: 20px 10px;
+  margin: 0;
 }
 
 .latexinterior {
-    display: flex;
-    flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  justify-items: center;
+  padding: 40px 0;
+
+  .productocaja {
     width: 100%;
-    justify-content: center;
+    max-width: 240px;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    .productocaja {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        @extend %productocaja;
-        margin: 50px;
-
-        &:hover {
-            transition: 0.5s;
-            transform: scale(1.1);
-
-        }
-
-        .productocaja h5 {
-            min-height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 0 5px;
-            margin: 5px 0;
-            font-size: 15px;
-            transition: 0.50s;
-            font-family: "Quicksand", sans-serif;
-        }
-
-        .vermas {
-            display: flex;
-            justify-content: center;
-            align-items: end;
-            background-color: rgb(8, 130, 252);
-            color: #ffffff;
-            margin-left: 60px;
-            margin-right: 60px;
-            font-size: 15px;
-            border-radius: 20px;
-            text-decoration: none;
-            padding: 8px;
-
-            &:hover {
-                color: #c5c5c5;
-
-
-            }
-
-        }
-
+    img {
+      max-width: 100%;
+      height: auto;
     }
+
+    h5 {
+      font-size: 15px;
+      min-height: 50px;
+      margin: 10px 0;
+    }
+
+    .vermas {
+      background-color: rgb(8, 130, 252);
+      color: #ffffff;
+      padding: 8px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      margin-top: auto;
+
+      &:hover {
+        color: #c5c5c5;
+      }
+    }
+  }
 }
+
+
 
 
 .dondeestamos {

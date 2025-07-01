@@ -2,15 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Cal+Sans&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-.latexinterior .productocaja {
-  width: 15%;
-  margin: 15px;
-  border: 2px solid rgb(8, 120, 224);
-  border-radius: 0px 30px 0px 30px;
-  padding: 3px;
-  padding-bottom: 20px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -331,53 +322,48 @@ section .productos .sintetico div p {
 }
 
 .h2latex {
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-size: 60px;
   text-align: center;
   background-color: rgb(8, 120, 224);
+  padding: 20px 10px;
+  margin: 0;
 }
 
 .latexinterior {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  justify-items: center;
+  padding: 40px 0;
 }
 .latexinterior .productocaja {
+  width: 100%;
+  max-width: 240px;
+  padding: 20px;
+  border: 2px solid #007bff;
+  border-radius: 20px;
+  text-align: center;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  text-align: center;
-  margin: 50px;
-}
-.latexinterior .productocaja:hover {
-  transition: 0.5s;
-  transform: scale(1.1);
-}
-.latexinterior .productocaja .productocaja h5 {
-  min-height: 50px;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 0 5px;
-  margin: 5px 0;
+}
+.latexinterior .productocaja img {
+  max-width: 100%;
+  height: auto;
+}
+.latexinterior .productocaja h5 {
   font-size: 15px;
-  transition: 0.5s;
-  font-family: "Quicksand", sans-serif;
+  min-height: 50px;
+  margin: 10px 0;
 }
 .latexinterior .productocaja .vermas {
-  display: flex;
-  justify-content: center;
-  align-items: end;
   background-color: rgb(8, 130, 252);
   color: #ffffff;
-  margin-left: 60px;
-  margin-right: 60px;
-  font-size: 15px;
+  padding: 8px 20px;
   border-radius: 20px;
   text-decoration: none;
-  padding: 8px;
+  margin-top: auto;
 }
 .latexinterior .productocaja .vermas:hover {
   color: #c5c5c5;
@@ -532,6 +518,21 @@ footer a img {
   .titulointerior {
     font-size: 2rem;
     margin: 15px 0;
+  }
+}
+@media (max-width: 1200px) {
+  .latexinterior {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 800px) {
+  .latexinterior {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .latexinterior {
+    grid-template-columns: 1fr;
   }
 }
 

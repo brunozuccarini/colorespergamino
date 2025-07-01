@@ -89,3 +89,22 @@
         margin: 15px 0;
     }
 }
+
+
+//  PAGINA PRODUCTOS
+
+@media (max-width: 1200px) {
+  .latexinterior {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 800px) {
+  .latexinterior {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .latexinterior {
+    grid-template-columns: 1fr;
+  }
+}
