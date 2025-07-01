@@ -233,25 +233,32 @@ section {
 
 .latexinterior {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
-  justify-items: center;
-  padding: 40px 0;
+  grid-template-columns: repeat(4, minmax(0, 1fr)); // 4 columnas iguales
+  gap: 10px 20px; // menos espacio entre columnas y filas
+  padding: 20px;
+  max-width: 1300px; // centra el contenido con ancho máximo
+  margin: 0 auto;     // centrado horizontal
+  justify-items: center; // centra cada producto dentro de su celda
+  
+
 
   .productocaja {
     width: 100%;
     max-width: 240px;
     padding: 20px;
     border: 2px solid #007bff;
-    border-radius: 20px;
+    border-radius: 0px 20px 0px 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 
+
     img {
+        
       max-width: 100%;
       height: auto;
+      
     }
 
     h5 {
