@@ -1,4 +1,3 @@
-
 // PAGINA INDEX
 
 
@@ -119,7 +118,7 @@ section {
 
             img {
                 width: 15%;
-                height: auto; 
+                height: auto;
                 object-fit: contain;
             }
 
@@ -148,7 +147,7 @@ section {
                 }
             }
 
-            
+
             @media (max-width: 768px) {
                 flex-direction: column;
                 align-items: center;
@@ -228,69 +227,69 @@ section {
 // PAGINA PRODUCTOS
 
 .h2latex {
-  color: #fff;
-  font-size: 60px;
-  text-align: center;
-  background-color: $color-principal;
-  padding: 20px 10px;
-  margin: 0;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    background-color: $color-principal;
+    padding: 20px 10px;
+    margin: 0;
 }
 
 .latexinterior {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr)); 
-  gap: 10px 20px; 
-  padding: 20px;
-  max-width: 1300px; 
-  margin: 0 auto;    
-  justify-items: center; 
-
-
-  .productocaja {
-    width: 100%;
-    max-width: 240px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px 20px;
     padding: 20px;
-    border: 2px solid #007bff;
-    border-radius: 0px 20px 0px 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-items: center;
 
 
-    img {
-        
-      max-width: 100%;
-      height: auto;
-    
-      
+    .productocaja {
+        width: 100%;
+        max-width: 240px;
+        padding: 20px;
+        border: 2px solid #007bff;
+        border-radius: 0px 20px 0px 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+        img {
+
+            max-width: 100%;
+            height: auto;
+
+
+        }
+
+        h5 {
+            font-size: 15px;
+            min-height: 50px;
+            margin: 10px 0;
+        }
+
+        .vermas {
+            background-color: rgb(8, 130, 252);
+            color: #ffffff;
+            padding: 8px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            margin-top: auto;
+
+            &:hover {
+                color: #c5c5c5;
+            }
+        }
     }
-
-    h5 {
-      font-size: 15px;
-      min-height: 50px;
-      margin: 10px 0;
-    }
-
-    .vermas {
-      background-color: rgb(8, 130, 252);
-      color: #ffffff;
-      padding: 8px 20px;
-      border-radius: 20px;
-      text-decoration: none;
-      margin-top: auto;
-
-      &:hover {
-        color: #c5c5c5;
-      }
-    }
-  }
 }
 
 
 
-//CONTACTO
+//PAGINA CONTACTO
 
 
 .dondeestamos {
@@ -316,26 +315,30 @@ section {
         margin: 10px;
         color: grey;
         font-family: "Archivo Black", sans-serif;
-        
+
         h2 {
             color: $color-principal;
             margin: 20px;
         }
     }
+
     h3 {
-        font-family:Arial, Helvetica, sans-serif;}
-    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
 }
 
 
 .horarios {
     margin: 30px;
     text-align: center;
+
     h3 {
-    font-size: 40px;
-    font-family: "Archivo Black", sans-serif;
-    color: $color-principal;}
-    
+        font-size: 40px;
+        font-family: "Archivo Black", sans-serif;
+        color: $color-principal;
+    }
+
     img {
         height: 30%;
         width: 30%;
@@ -347,14 +350,14 @@ section {
 // PAGINA TIPS
 
 .tips {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 
 .tips2 {
-  flex: 1 1 300px;
-  max-width: 500px;
+    flex: 1 1 300px;
+    max-width: 500px;
 }
