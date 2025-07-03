@@ -1,29 +1,29 @@
-// MEDIA QUERIES
+//  INDEX
 @media (max-width: 992px) {
-    .header-logos {
-        flex-direction: column;
-    }
+  .header-logos {
+    flex-direction: column;
+  }
 
-    .menulogo2,
-    .menulogo3 {
-        width: 180px;
-        margin: 10px auto;
-    }
+  .menulogo2,
+  .menulogo3 {
+    width: 180px;
+    margin: 10px auto;
+  }
 
-    .navbar-nav .nav-link {
-        font-size: 1rem;
-    }
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 400px) {
-    .productosusados {
-        font-size: 1.8rem;
-        /* Más chico que el tamaño por defecto */
-        text-align: center;
-        /* Opcional, por si se ve mejor centrado */
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
+  .productosusados {
+    font-size: 1.8rem;
+    /* Más chico que el tamaño por defecto */
+    text-align: center;
+    /* Opcional, por si se ve mejor centrado */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 
 // PAGINA COLORES
@@ -31,63 +31,63 @@
 
 
 @media (max-width: 1100px) {
-    .interior {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        padding: 10px;
+  .interior {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
 
-        .producto-img {
-            width: 60%;
-            max-width: 320px;
-        }
-
-        .colorescont {
-            width: 90%;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 12px;
-            justify-items: center;
-
-            .colores img {
-                width: 90px;
-                height: auto;
-            }
-        }
+    .producto-img {
+      width: 60%;
+      max-width: 320px;
     }
 
-    .titulointerior {
-        font-size: 2.5rem;
+    .colorescont {
+      width: 90%;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 12px;
+      justify-items: center;
+
+      .colores img {
+        width: 90px;
+        height: auto;
+      }
     }
+  }
+
+  .titulointerior {
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 768px) {
-    .interior {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
+  .interior {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 
-        .producto-img {
-            width: 80%;
-            max-width: 300px;
-        }
-
-        .colorescont {
-            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-            gap: 10px;
-            width: 100%;
-            justify-items: center;
-
-            .colores img {
-                width: 90px;
-                height: auto;
-            }
-        }
+    .producto-img {
+      width: 80%;
+      max-width: 300px;
     }
 
-    .titulointerior {
-        font-size: 2rem;
-        margin: 15px 0;
+    .colorescont {
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      gap: 10px;
+      width: 100%;
+      justify-items: center;
+
+      .colores img {
+        width: 90px;
+        height: auto;
+      }
     }
+  }
+
+  .titulointerior {
+    font-size: 2rem;
+    margin: 15px 0;
+  }
 }
 
 
@@ -98,16 +98,6 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media (max-width: 800px) {
-  .latexinterior {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 500px) {
-  .latexinterior {
-    grid-template-columns: 1fr;
-  }
-}
 
 @media (max-width: 1024px) {
   .latexinterior {
@@ -115,14 +105,140 @@
   }
 }
 
+@media (max-width: 800px) {
+  .latexinterior {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
 @media (max-width: 768px) {
   .latexinterior {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
+@media (max-width: 500px) {
+  .latexinterior {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 480px) {
   .latexinterior {
     grid-template-columns: 1fr;
+  }
+}
+
+
+// PAGINA CONTACTO 
+
+@media (max-width: 768px) {
+  .contactoh3 {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .contactoh3 iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .infocontacto1 h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .infocontacto1 h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .horarios img {
+    width: 60%;
+  }
+
+  .horarios h3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contactoh3 iframe {
+    height: 250px;
+  }
+
+  .infocontacto1 h2 {
+    font-size: 20px;
+  }
+
+  .infocontacto1 h3 {
+    font-size: 16px;
+  }
+
+  .horarios h3 {
+    font-size: 24px;
+  }
+
+  .horarios img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 350px) {
+  .dondeestamos {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+
+  .contactoh3 iframe {
+    height: 200px;
+  }
+
+  .infocontacto1 h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .infocontacto1 h3 {
+    font-size: 14px;
+  }
+
+  .horarios h3 {
+    font-size: 20px;
+  }
+
+  .horarios img {
+    width: 90%;
+  }
+}
+
+// PAGINA TIPS
+
+@media (max-width: 768px) {
+  .tips {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tips2 {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .instagram-media {
+    width: 100% !important;
+    min-width: auto !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .tips2 {
+    padding: 0 10px;
+  }
+
+  .instagram-media {
+    transform: scale(0.95);
+    transform-origin: top center;
   }
 }

@@ -1,4 +1,7 @@
 
+// PAGINA INDEX
+
+
 
 .carousel-inner img {
     height: auto;
@@ -175,6 +178,8 @@ section {
     }
 }
 
+
+// PAGINA COLORES
 .bodypage2 {
     background-color: rgb(245, 243, 243);
 }
@@ -220,7 +225,7 @@ section {
 }
 
 
-
+// PAGINA PRODUCTOS
 
 .h2latex {
   color: #fff;
@@ -233,13 +238,12 @@ section {
 
 .latexinterior {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr)); // 4 columnas iguales
-  gap: 10px 20px; // menos espacio entre columnas y filas
+  grid-template-columns: repeat(4, minmax(0, 1fr)); 
+  gap: 10px 20px; 
   padding: 20px;
-  max-width: 1300px; // centra el contenido con ancho máximo
-  margin: 0 auto;     // centrado horizontal
-  justify-items: center; // centra cada producto dentro de su celda
-  
+  max-width: 1300px; 
+  margin: 0 auto;    
+  justify-items: center; 
 
 
   .productocaja {
@@ -286,7 +290,7 @@ section {
 
 
 
-
+//CONTACTO
 
 
 .dondeestamos {
@@ -340,13 +344,17 @@ section {
 }
 
 
+// PAGINA TIPS
+
 .tips {
-    display: flex;
-    justify-content: center;
-   
-    margin: 30px;
-}   
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
 
 .tips2 {
-    padding: 30px;
+  flex: 1 1 300px;
+  max-width: 500px;
 }
