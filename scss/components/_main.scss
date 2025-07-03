@@ -101,9 +101,9 @@ section {
         .acuoso,
         .sintetico {
             display: flex;
-            flex-direction: row; // horizontal en desktop
-            justify-content: center; // 🔹 centrado horizontal
-            align-items: center; // 🔹 centrado vertical
+            flex-direction: row; 
+            justify-content: center;
+            align-items: center; 
             gap: 30px;
             border: 1px solid #000;
             border-radius: 50px;
